@@ -1,0 +1,9 @@
+{
+    "server":{
+        "port": 8443
+    },
+    "cert":{
+        "fullchainPath": "<enter path here>",
+        "privKeyPath": "<enter path here>"
+    }
+}

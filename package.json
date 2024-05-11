@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "config": "^3.3.11",
+    "express": "^4.19.2"
+  }
+}

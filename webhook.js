@@ -6,7 +6,7 @@ const config = require('config')
 const port = config.get('server.port')
 const cts = {
     cert: fs.readFileSync(config.get('cert.fullchainPath')),
-    key: fs.readFileSync(config.get('cert.privkeyPath'))
+    key: fs.readFileSync(config.get('cert.privKeyPath'))
 }
 
 app.post('/webhook', (req, res) => {
